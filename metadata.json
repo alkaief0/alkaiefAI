@@ -1,0 +1,18 @@
+prompt-master/  (المجلد الرئيسي)
+├── index.html          (الملف الذي أعطيتك إياه سابقاً)
+├── package.json        (الملف الجديد بالأعلى)
+├── vite.config.ts      (الملف الجديد بالأعلى)
+├── tsconfig.json       (الملف الجديد بالأعلى)
+├── metadata.json       (الملف الموجود سابقاً)
+├── src/                (أنشئ مجلداً جديداً هنا اسمه src)
+│   ├── index.tsx       (ضع هذا الملف داخل src)
+│   ├── App.tsx         (ضع هذا الملف داخل src)
+│   ├── data.ts         (ضع هذا الملف داخل src)
+│   ├── types.ts        (ضع هذا الملف داخل src)
+│   ├── services/       (مجلد داخل src)
+│   │   └── geminiService.ts
+│   └── components/     (مجلد داخل src)
+│       ├── FrameworkExplorer.tsx
+│       ├── Playground.tsx
+│       ├── InteractiveInfographic.tsx
+│       └── ComparisonTable.tsx
